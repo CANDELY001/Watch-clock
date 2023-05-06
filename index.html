@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CLOCK - Watch</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="information">
+      <div class="name">
+        <div>C</div>
+        <div>L</div>
+        <div class="circle"></div>
+        <div>C</div>
+        <div>K</div>
+        <div class="watch">watch</div>
+      </div>
+
+      <ul class="change">
+        <li role="99">Rabat</li>
+        <li role="0">London</li>
+        <li role="1">Paris</li>
+        <li role="1">Amsterdam</li>
+        <li role="2">Istanbul</li>
+        <li role="-8">San Fransico</li>
+        <li role="9">Tokyo</li>
+        <li role="-5">Washington</li>
+      </ul>
+      <br /><br /><br /><br />
+      <p>
+        Diff-time Rabat & the selected city
+        <span id="time-diff">00:00</span>
+      </p>
+    </div>
+    <div id="maskwatch">
+      <div class="day_icon">
+        <div class="sun"></div>
+        <div class="is_shining">
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+          <div class="shine"></div>
+        </div>
+      </div>
+
+      <div class="night_icon">
+        <div class="icon icon1"></div>
+        <div class="icon icon2"></div>
+        <div class="icon icon3"></div>
+        <div class="icon icon4"></div>
+      </div>
+
+      <div class="container day">
+        <div class="top_strap">
+          <div class="strap_line_left"></div>
+          <div class="strap_line_left white"></div>
+          <div class="strap_line_right"></div>
+          <div class="strap_line_right white"></div>
+        </div>
+
+        <div class="quadrant_border_white"></div>
+        <div class="quadrant_border_gray"></div>
+
+        <div class="quadrant_container">
+          <div class="switch"></div>
+          <div class="glass"></div>
+          <div class="quadrant"></div>
+          <div class="quadrant_texture"></div>
+          <div class="lines">
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+            <hr />
+          </div>
+
+          <div class="hours">
+            <label>12</label>
+            <label>1</label>
+            <label>2</label>
+            <label>3</label>
+            <label>4</label>
+            <label>5</label>
+            <label>6</label>
+            <label>7</label>
+            <label>8</label>
+            <label>9</label>
+            <label>10</label>
+            <label>11</label>
+          </div>
+          <div class="minutes">
+            <label>00</label>
+            <label>05</label>
+            <label>10</label>
+            <label>15</label>
+            <label>20</label>
+            <label>25</label>
+            <label>30</label>
+            <label>35</label>
+            <label>40</label>
+            <label>45</label>
+            <label>50</label>
+            <label>55</label>
+          </div>
+
+          <div class="first_rotary">
+            <div class="hours_capsule"></div>
+            <div class="hours_capsule fill"></div>
+          </div>
+          <div class="second_rotary">
+            <div class="minutes_capsule"></div>
+            <div class="minutes_capsule fill"></div>
+          </div>
+        </div>
+
+        <div class="bottom_strap">
+          <div class="strap_line_left"></div>
+          <div class="strap_line_left white"></div>
+          <div class="strap_line_right"></div>
+          <div class="strap_line_right white"></div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
